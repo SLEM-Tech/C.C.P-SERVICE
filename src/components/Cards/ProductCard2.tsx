@@ -69,7 +69,7 @@ const ProductCard2 = ({
 		>
 			{/* Book Cover Container */}
 			<div className='relative aspect-[3/4] w-full bg-gray-50'>
-				<Link href={`/product/${slugDesc}-${id}`} className='block h-full'>
+				<Link href={`/home-item/product/${slugDesc}-${id}`} className='block h-full'>
 					<div className='relative h-full overflow-hidden flex items-center justify-center p-4'>
 						<Picture
 							src={image}
